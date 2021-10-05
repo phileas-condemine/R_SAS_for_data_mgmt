@@ -1,0 +1,34 @@
+1                                                          Le Système SAS                              10:26 Tuesday, March 27, 2018
+
+NOTE: Unable to open SASUSER.REGSTRY. WORK.REGSTRY will be opened instead.
+NOTE: All registry changes will be lost at the end of the session.
+
+WARNING: Unable to copy SASUSER registry to WORK registry. Because of this, you will not see registry customizations during this 
+         session.
+NOTE: Unable to open SASUSER.PROFILE. WORK.PROFILE will be opened instead.
+NOTE: All profile changes will be lost at the end of the session.
+NOTE: Copyright (c) 2002-2010 by SAS Institute Inc., Cary, NC, USA. 
+NOTE: SAS (r) Proprietary Software 9.3 (TS1M1) 
+      Licensed to UGAP POUR LE MINISTERE DE LA SANTE, Site 50100370.
+NOTE: This session is executing on the W32_7PRO  platform.
+
+
+
+NOTE: Updated analytical products:
+
+SAS/STAT 9.3_M1, SAS/ETS 9.3_M1
+
+NOTE: L'initialisation de SAS used:
+      real time           4.69 secondes
+      cpu time            0.34 secondes
+      
+1          libname bases "T:\BESP\Baromètre INPES\Bases pour comparaison DOM-Métropole_SAS";
+ERROR: L'utilisateur n'a pas le bon niveau d'autorisation pour la biblio. BASES.
+ERROR: Error in the LIBNAME statement.
+ERROR: Errors printed on page 1.
+
+NOTE: SAS Institute Inc., SAS Campus Drive, Cary, NC USA 27513-2414
+NOTE: Le Système SAS used:
+      real time           10.63 secondes
+      cpu time            0.56 secondes
+      
